@@ -19,7 +19,7 @@ const ResultsMenu = props => {
             size='large' 
             variant="outlined" 
             color="primary"
-            onClick={props.takeAgainHandler}>
+            onClick='window.location.reload();'>
                 TAKE AGAIN
             </Button>   
         </div>

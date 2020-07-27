@@ -53,22 +53,13 @@ class App extends React.Component {
     let cardID = event.target.value[0];
     userAnswersArray[cardID] = event.target.value.substring(1, event.target.value.length - 1);
   }
-
-  takeAgainHandler = _ => {
-    this.setState({
-      quizStarted: false,
-      quizComplete: false,
-      correctAnswers: 0
-    });
-    userAnswersArray = ['','',''];
-  }
   
   render() {
     return (
       <div className='container'>
         <NavBar timerDoneHandler={this.submitClickedHandler} quizStarted={this.state.quizStarted} quizComplete={this.state.quizComplete}/>
         {this.state.quizComplete ?
-          <ResultsMenu correctAnswers={this.state.correctAnswers} userAnswersArray={userAnswersArray} takeAgainHandler={this.takeAgainHandler}/> :
+          <ResultsMenu correctAnswers={this.state.correctAnswers} userAnswersArray={userAnswersArray} /> :
           <Fragment>
             {this.state.quizStarted ? 
               <div>
