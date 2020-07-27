@@ -1,10 +1,10 @@
 import React, { Fragment } from 'react';
 import './App.css';
-import NavBar from '../Components/NavBar';
-import QuestionCardList from '../Components/QuestionCardList';
-import StartMenu from '../Components/StartMenu.js'
-import SubmitButton from '../Components/SubmitButton';
-import ResultsMenu from '../Components/ResultsMenu';
+import NavBar from '../Components/NavBar/NavBar';
+import QuestionCardList from '../Components/QuestionCardList/QuestionCardList';
+import StartMenu from '../Components/StartMenu/StartMenu.js'
+import SubmitButton from '../Components/SubmitButton/SubmitButton';
+import ResultsMenu from '../Components/ResultsMenu/ResultsMenu';
 
 const questionsArray = [
   'A bat and a ball cost $1.10 in total. The bat costs $1.00 more than the ball. How much does the ball cost?',

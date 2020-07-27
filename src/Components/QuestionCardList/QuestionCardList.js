@@ -1,6 +1,6 @@
 import React from 'react';
 import './QuestionCardList.css';
-import Card from './QuestionCard';
+import Card from '../QuestionCard/QuestionCard';
 
 const QuestionCardList = ({ questions, answers, radioHandler, radioChangeHandler }) => {
     return (

@@ -2,7 +2,7 @@ import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import ToolBar from '@material-ui/core/Toolbar'
-import Timer from './Timer';
+import Timer from '../Timer/Timer';
 import './NavBar.css';
 
 const NavBar = props => {

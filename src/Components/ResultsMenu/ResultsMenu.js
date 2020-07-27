@@ -1,7 +1,7 @@
 import React from 'react';
 import './ResultsMenu.css';
 import LinearProgress from '@material-ui/core/LinearProgress';
-import QuestionResult from './QuestionResult';
+import QuestionResult from '../QuestionResult/QuestionResult';
 import Button from '@material-ui/core/Button';
 
 const ResultsMenu = props => {
