@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/iquiz/static/css/main.9556b519.chunk.css",
-    "main.js": "/iquiz/static/js/main.b1bb48fa.chunk.js",
-    "main.js.map": "/iquiz/static/js/main.b1bb48fa.chunk.js.map",
+    "main.js": "/iquiz/static/js/main.05112b3d.chunk.js",
+    "main.js.map": "/iquiz/static/js/main.05112b3d.chunk.js.map",
     "runtime-main.js": "/iquiz/static/js/runtime-main.4d82d480.js",
     "runtime-main.js.map": "/iquiz/static/js/runtime-main.4d82d480.js.map",
     "static/js/2.f06589e1.chunk.js": "/iquiz/static/js/2.f06589e1.chunk.js",
     "static/js/2.f06589e1.chunk.js.map": "/iquiz/static/js/2.f06589e1.chunk.js.map",
     "index.html": "/iquiz/index.html",
-    "precache-manifest.1ef4ad315b2de102d39c2ac575eee4e9.js": "/iquiz/precache-manifest.1ef4ad315b2de102d39c2ac575eee4e9.js",
+    "precache-manifest.124f56088a2918a010aa69468ba71344.js": "/iquiz/precache-manifest.124f56088a2918a010aa69468ba71344.js",
     "service-worker.js": "/iquiz/service-worker.js",
     "static/css/main.9556b519.chunk.css.map": "/iquiz/static/css/main.9556b519.chunk.css.map",
     "static/js/2.f06589e1.chunk.js.LICENSE.txt": "/iquiz/static/js/2.f06589e1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4d82d480.js",
     "static/js/2.f06589e1.chunk.js",
     "static/css/main.9556b519.chunk.css",
-    "static/js/main.b1bb48fa.chunk.js"
+    "static/js/main.05112b3d.chunk.js"
   ]
 }
