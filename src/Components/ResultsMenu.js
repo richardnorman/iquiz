@@ -5,6 +5,11 @@ import QuestionResult from './QuestionResult';
 import Button from '@material-ui/core/Button';
 
 const ResultsMenu = props => {
+
+    const refreshPage = _ => {
+        window.location.reload(true);
+    }
+
     return (
         <div className='results-menu'>
             <h1 className='results-title'>You scored {Math.round((props.correctAnswers/3)*100) + '%'}</h1>
@@ -19,7 +24,7 @@ const ResultsMenu = props => {
             size='large' 
             variant="outlined" 
             color="primary"
-            onClick='window.location.reload();'>
+            onClick={refreshPage}>
                 TAKE AGAIN
             </Button>   
         </div>
