@@ -1,0 +1,26 @@
+.results-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.results-title {
+    color: #3f51b5;
+    margin-bottom: 3rem;;
+}
+
+.linear-results {
+    width: 75%;
+}
+
+.results-user-answers {
+    margin-top: 3rem;
+}
+
+.take-again-button {
+    margin-top: 2rem !important;
+}

@@ -1,0 +1,13 @@
+.card-list {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.question-card {
+    width: 75%;
+}

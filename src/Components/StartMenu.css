@@ -1,0 +1,23 @@
+.start-menu {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.start-title{
+    color: #3f51b5;
+}
+
+.start-description {
+    color: #3f51b5;
+    width: 75%;
+    text-align: center;
+}
+
+.start-button {
+    margin-top: 2rem !important;
+}
