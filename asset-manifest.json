@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/iquiz/static/css/main.f55573dd.chunk.css",
-    "main.js": "/iquiz/static/js/main.56436487.chunk.js",
-    "main.js.map": "/iquiz/static/js/main.56436487.chunk.js.map",
+    "main.js": "/iquiz/static/js/main.4d941cd8.chunk.js",
+    "main.js.map": "/iquiz/static/js/main.4d941cd8.chunk.js.map",
     "runtime-main.js": "/iquiz/static/js/runtime-main.4d82d480.js",
     "runtime-main.js.map": "/iquiz/static/js/runtime-main.4d82d480.js.map",
-    "static/js/2.f06589e1.chunk.js": "/iquiz/static/js/2.f06589e1.chunk.js",
-    "static/js/2.f06589e1.chunk.js.map": "/iquiz/static/js/2.f06589e1.chunk.js.map",
+    "static/js/2.98689911.chunk.js": "/iquiz/static/js/2.98689911.chunk.js",
+    "static/js/2.98689911.chunk.js.map": "/iquiz/static/js/2.98689911.chunk.js.map",
     "index.html": "/iquiz/index.html",
-    "precache-manifest.0c3fe909efd896292daa6536b79bad3d.js": "/iquiz/precache-manifest.0c3fe909efd896292daa6536b79bad3d.js",
+    "precache-manifest.dce986dd236b5ec50fa765240b54186e.js": "/iquiz/precache-manifest.dce986dd236b5ec50fa765240b54186e.js",
     "service-worker.js": "/iquiz/service-worker.js",
     "static/css/main.f55573dd.chunk.css.map": "/iquiz/static/css/main.f55573dd.chunk.css.map",
-    "static/js/2.f06589e1.chunk.js.LICENSE.txt": "/iquiz/static/js/2.f06589e1.chunk.js.LICENSE.txt"
+    "static/js/2.98689911.chunk.js.LICENSE.txt": "/iquiz/static/js/2.98689911.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.4d82d480.js",
-    "static/js/2.f06589e1.chunk.js",
+    "static/js/2.98689911.chunk.js",
     "static/css/main.f55573dd.chunk.css",
-    "static/js/main.56436487.chunk.js"
+    "static/js/main.4d941cd8.chunk.js"
   ]
 }
