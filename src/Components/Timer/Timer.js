@@ -1,27 +1,24 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useState, useEffect } from 'react';
 import './Timer.css';
 
 const Timer = props => {
+    const [timer, setTimer] = useState(120);
 
-    let timeLeft = 60;
-
-    if(props.quizStarted) {
-        setInterval(() => {
-            if (!props.quizComplete) {
-                timeLeft -= 1;
-                if(timeLeft === 0) {
+    useEffect(() => {
+        const interval = setInterval(() => {
+            if (props.quizStarted && !props.quizComplete) {
+                console.log(timer);
+                setTimer(timer - 1);
+                if (timer === 0) {
                     props.timerDoneHandler();
-                }
-                let timer = document.querySelector('.timer');
-                if (timer != null) {
-                    timer.innerHTML = `${timeLeft} seconds remaining`;
                 }
             }
         }, 1000);
-    }
+        return () => clearTimeout(interval);
+    })
 
     return (
-        <h3 className='timer'>{timeLeft} seconds remaining</h3>
+        <h3 className='timer'>{timer} seconds remaining</h3>
     );
 }
 

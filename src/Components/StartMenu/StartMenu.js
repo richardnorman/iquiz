@@ -6,7 +6,7 @@ const StartMenu = props => {
     return (
         <div className='start-menu'>
             <h1 className='start-title'>Ready to take the quiz?</h1>
-            <p className='start-description'>This quiz is a timed 1 minute test of cognitive ability. It was found that only 17% of university students get all three questions correct.</p>
+            <p className='start-description'>This quiz is a timed 2 minute test of cognitive ability. It was found that only 17% of university students get all three questions correct.</p>
             <Button 
             className='start-button' 
             size='large' 
