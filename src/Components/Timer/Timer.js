@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import './Timer.css';
 
 const Timer = props => {
-    const [timer, setTimer] = useState(120);
+    const [timer, setTimer] = useState(180);
 
     useEffect(() => {
         const interval = setInterval(() => {
